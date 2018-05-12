@@ -13,11 +13,6 @@ Vector3::Vector3(float xyz) : x(xyz), y(xyz), z(xyz) {}
 
 Vector3::Vector3() : x(0.0), y(0.0), z(0.0) {}
 
-//----------------------------------------------------------DESTRUCTOR----------------------------------------------------------------------
-
-Vector3::~Vector3() {}
-
-
 //----------------------------------------------------------SETTER--------------------------------------------------------------------------
 
 void Vector3::setCoordinates(float x, float y, float z)
@@ -95,7 +90,7 @@ bool Vector3::isNullvector() const
 	return isNullvector;
 }
 
-bool Vector3::isEqual(Vector3 vector3) const
+bool Vector3::isLinearlyDependent(Vector3 vector3) const
 {
 	bool isEqual = false;
 
