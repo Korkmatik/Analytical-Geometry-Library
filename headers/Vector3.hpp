@@ -24,13 +24,13 @@
 		float getYCoordinate() const;									//outputs Y-Coordinate
 		float getZCoordinate() const;									//outputs Z-Coordinate
 		
-		float getAngle(Vector3 vector3) const;							//outputs the Angle in which the two Vectors intersect
-		float getAngleWithXAxis(Vector3 vector3) const; 
-		float getAngleWithYAxis(Vector3 vector3) const;
-		float getAngleWithZAxis(Vector3 vector3) const;
+		float getAngle(Vector3 vector3) const;							//outputs the angle in which the two Vectors intersect [Degrees]
+		float getAngleWithXAxis() const;								//outputs the angle in which the Vector intersects the X-Axis [Degrees]
+		float getAngleWithYAxis() const;								//outputs the angle in which the Vector intersects the Y-Axis [Degrees]
+		float getAngleWithZAxis() const;								//outputs the angle in which the Vector intersects the Z-Axis [Degrees]
 												 
-		bool isNullvector() const;						//return true if this Vecor is equal to the nullvector
-		bool isEqual(Vector3 vector3_1, Vector3 vector3_2) const;		//returns true if the Vectors are lineary dependent
+		bool isNullvector() const;										//return true if this Vecor is equal to the nullvector
+		bool isEqual(Vector3 vector3) const;		//returns true if the Vectors are lineary dependent
 
 		//Arithmetic operations
 		Vector3 operator+(Vector3& vector3);							//Adding two Vectors
