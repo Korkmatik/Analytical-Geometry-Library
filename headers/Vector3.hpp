@@ -14,6 +14,9 @@
 														 
 		//Setter										 
 		void setCoordinates(float x, float y, float z);	 //sets new Coordinates for the Vector
+		void setX(float x);
+		void setY(float y);
+		void setZ(float z);
 														 
 		//Getter										 
 		float getLenght() const;      //outputs the lenght of the Vector

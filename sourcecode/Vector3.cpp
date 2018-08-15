@@ -22,6 +22,21 @@ void Vector3::setCoordinates(float x, float y, float z)
 	this->z = z;
 }
 
+void Vector3::setX(float x)
+{
+	this->x = x;
+}
+
+void Vector3::setY(float y)
+{
+	this->y = y;
+}
+
+void Vector3::setZ(float z)
+{
+	this->z = z;
+}
+
 //----------------------------------------------------------GETTER--------------------------------------------------------------------------
 
 float Vector3::getLenght() const
