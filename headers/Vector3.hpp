@@ -19,7 +19,7 @@
 		void setZ(float z);
 														 
 		//Getter										 
-		float getLenght() const;      //outputs the lenght of the Vector
+		float getLenght() const;      //outputs the length of the Vector
 														 
 		float getXCoordinate() const; //outputs X-Coordinate
 		float getYCoordinate() const; //outputs Y-Coordinate
@@ -34,12 +34,10 @@
 		bool isLinearlyDependent(Vector3 vector3) const; //returns true if the Vectors are lineary dependent
 
 		//Arithmetic operations
-		Vector3 operator+(Vector3& vector3);  //Adding two Vectors
-											  
-		Vector3 operator-(Vector3& vector3);  //Substracting two Vectors
-											  
-		Vector3 operator*(Vector3& vector3);  //Multiplication
-		Vector3 operator*(float scalar);
+		Vector3 operator+(Vector3& vector3);  //returns a new vector which is created by adding two vectors											  
+		Vector3 operator-(Vector3& vector3);  //returns a new vector which is created by substracting two vectors											  
+		Vector3 operator*(Vector3& vector3);  //returns a scalar which is created by multipliing the two vectors
+		Vector3 operator*(float scalar);	  //returns a new vector which is created by multipliing the current vector with a scalar
 
 		//Methods
 		void printOnConsole() const;   //prints the Vector on the console
