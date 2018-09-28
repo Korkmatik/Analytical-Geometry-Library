@@ -1,9 +1,8 @@
-#include "stdafx.h"
 #include "Vector3.hpp"
 #include <cmath>
 #include <iostream>
 
-#define M_PI 3.14159265358979323846 /*PI*/
+#define _USE_MATH_DEFINES
 
 //----------------------------------------------------------CONSTRUCTOR---------------------------------------------------------------------
 
