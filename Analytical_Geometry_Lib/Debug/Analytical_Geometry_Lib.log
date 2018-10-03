@@ -1,0 +1,11 @@
+﻿  Vector2.cpp
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector2.cpp(55): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector2.cpp(63): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector2.cpp(71): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+  Vector3.cpp
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector3.cpp(67): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector3.cpp(75): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector3.cpp(83): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\fahri\documents\github\analytical-geometry-library\analytical-geometry-library\analytical_geometry_lib\vector3.cpp(91): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+  Code wird generiert...
+  Analytical_Geometry_Lib.vcxproj -> C:\Users\Fahri\Documents\GitHub\Analytical-Geometry-Library\Analytical-Geometry-Library\Debug\Analytical_Geometry_Lib.lib
